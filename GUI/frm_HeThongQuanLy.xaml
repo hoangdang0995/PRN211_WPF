@@ -1,0 +1,122 @@
+﻿<Window x:Class="GUI.frm_HeThongQuanLy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxDocking="clr-namespace:DevExpress.Xpf.Docking;assembly=DevExpress.Xpf.Docking.v12.2"
+        x:Name="frm_hethong"
+        Title="Hệ thống Quản Lý Sinh Viên - Version 1.0" MinHeight="609" MinWidth="1200" WindowState="Maximized" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" Icon="/GUI;component/Resources/47.png">
+    <Grid>
+        <dxb:BarManager Name="barManager1">
+            <dxb:BarManager.Items>
+                <dxb:BarButtonItem Content="Đăng xuất" Name="cmd_DangNhap" LargeGlyph="/GUI;component/Resources/dangxuat.png" ItemClick="cmd_DangNhap_ItemClick"  />
+                <dxb:BarButtonItem Content="Thông Tin Tài Khoản" Name="cmd_ThongTinTK" ItemClick="cmd_ThongTinTK_ItemClick" LargeGlyph="/GUI;component/Resources/doimatkhau.png" />
+                <dxb:BarButtonItem Content="Người dùng" Name="cmd_NguoiDung" LargeGlyph="/GUI;component/Resources/5.png" ItemClick="cmd_NguoiDung_ItemClick" />
+                <dxb:BarButtonItem Content="Loại Người dùng" Name="cmd_LoaiNguoiDung" LargeGlyph="/GUI;component/Resources/phancong.png" ItemClick="cmd_LoaiNguoiDung_ItemClick" />
+                <dxb:BarButtonItem Content="Sinh Viên" Name="cmd_SinhVien" LargeGlyph="/GUI;component/Resources/56.png" ItemClick="cmd_SinhVien_ItemClick" />
+                <dxb:BarButtonItem Content="Dân tộc" Name="cmd_DanToc" Glyph="/GUI;component/Resources/dantoc.png" MouseLeftButtonDown="cmd_DanToc_MouseLeftButtonDown" ItemClick="cmd_DanToc_ItemClick" />
+                <dxb:BarButtonItem Content="Tôn giáo" Name="cmd_TonGiao" Glyph="/GUI;component/Resources/tongiao.png" ItemClick="cmd_TonGiao_ItemClick" />
+                <dxb:BarButtonItem Content="Giảng Viên" Name="cmd_GiangVien" LargeGlyph="/GUI;component/Resources/giangvien.png" ItemClick="cmd_GiangVien_ItemClick" IsEnabled="True" />
+                <dxb:BarButtonItem Content="Học hàm - Học vị" Name="cmd_HocVi" Glyph="/GUI;component/Resources/dsgiaovien.png" ItemClick="cmd_HocVi_ItemClick" />
+                <dxb:BarButtonItem Content="Loại Giảng viên" Name="cmd_LoaiGiangVien" Glyph="/GUI;component/Resources/pupils.png" ItemClick="cmd_LoaiGiangVien_ItemClick" />
+                <dxb:BarButtonItem Content="Đóng chương trình" Name="cmd_Thoat" LargeGlyph="/GUI;component/Resources/thoat.png" ItemClick="cmd_Thoat_ItemClick" />
+                <dxb:BarButtonItem Content="Kết quả học kỳ theo lớp học" ItemClick="cmd_KetQuaHKTheoLop_ItemClick" Name="cmd_KetQuaHKTheoLop" LargeGlyph="/GUI;component/Resources/kqhockytheolop.png" />
+                <dxb:BarButtonItem Content="Kết quả học kỳ theo môn học" ItemClick="cmd_KetQuaHKTheoMonHoc_ItemClick" Name="cmd_KetQuaHKTheoMonHoc" LargeGlyph="/GUI;component/Resources/kqhockytheomon.png" />
+                <dxb:BarButtonItem Content="Danh sách Sinh Viên" Name="cmd_DanhSachSinhVien" LargeGlyph="/GUI;component/Resources/56.png" />
+                <dxb:BarButtonItem Content="Danh sách Giảng Viên" Name="cmd_DanhsachGiangVien" LargeGlyph="/GUI;component/Resources/dsgiaovien.png" />
+                <dxb:BarButtonItem Content="Danh sách Lớp Học" Name="cmd_DanhSachLopHoc" LargeGlyph="/GUI;component/Resources/dslophoc.png" />
+                <dxb:BarButtonItem Content="Tra cứu Sinh Viên" Name="cmd_TraCuuSinhVien" LargeGlyph="/GUI;component/Resources/tracuuhocsinh.png" />
+                <dxb:BarButtonItem Content="Tra cứu Giảng Viên" Name="cmd_TraCuuGiangVien" LargeGlyph="/GUI;component/Resources/tracuugiaovien.png" />
+                <dxb:BarButtonItem Content="Tra cứu Môn Học" Name="cmd_TraCuuMonHoc" LargeGlyph="/GUI;component/Resources/monhoc.png" />
+                <dxb:BarButtonItem Content="Nhập điểm" Name="cmd_NhapDiem" LargeGlyph="/GUI;component/Resources/Blu%20Style%20png%20pages1.png" ItemClick="cmd_NhapDiem_ItemClick" />
+                <dxb:BarButtonItem Content="Học Kỳ" Name="cmd_HocKy" Glyph="/GUI;component/Resources/hocky.png" ItemClick="cmd_HocKy_ItemClick" />
+                <dxb:BarButtonItem Content="Khoa" Name="cmd_Khoa" Glyph="/GUI;component/Resources/khoilop.png" ItemClick="cmd_Khoa_ItemClick" />
+                <dxb:BarButtonItem Content="Khoá Học" Name="cmd_KhoaHoc" Glyph="/GUI;component/Resources/namhoc.png" ItemClick="cmd_KhoaHoc_ItemClick" />
+                <dxb:BarButtonItem Content="Chuyên Ngành" Name="cmd_ChuyenNganh" Glyph="/GUI;component/Resources/nghenghiep.png" ItemClick="cmd_ChuyenNganh_ItemClick" />
+                <dxb:BarButtonItem Content="Môn Học" Name="cmd_MonHoc" Glyph="/GUI;component/Resources/monhoc.png" ItemClick="cmd_MonHoc_ItemClick" />
+                <dxb:BarButtonItem Content="Lớp Học" Name="cmd_LopHoc" Glyph="/GUI;component/Resources/lophoc.png" ItemClick="cmd_LopHoc_ItemClick" />
+                <dxb:BarButtonItem Content="Thông tin Phần mềm" Name="cmd_ThongTinPhanMem" ItemClick="cmd_ThongTinPhanMem_ItemClick" LargeGlyph="/GUI;component/Images/xoabonho.png" />
+                <!--<dxb:BarButtonItem Content="Hướng dẫn sử dụng" Name="cmd_HuongDanSuDung" LargeGlyph="/GUI;component/Resources/diem.png" />-->
+                <dxb:BarButtonItem Content="Kết quả học tập của 1 Sinh viên" ItemClick="cmd_KetQua1SinhVien_ItemClick" Name="cmd_KetQua1SinhVien" LargeGlyph="/GUI;component/Resources/kqcnamtheomon.png" />
+                <dxb:BarButtonItem Content="Xếp lớp" Name="cmd_XepLop" Glyph="/GUI;component/Resources/closephanlop.png" ItemClick="cmd_XepLop_ItemClick" />
+            </dxb:BarManager.Items>
+            <DockPanel Name="dockPanel1">
+                <dxr:RibbonControl Name="ribbonControl1" DockPanel.Dock="Top" AllowKeyTips="False" ApplicationButtonLargeIcon="/GUI;component/Images/dsgiaovien.png" Background="#FFC17777" BorderBrush="#FFA05A5A" RibbonStyle="Office2007">
+                    <dxr:RibbonDefaultPageCategory Caption="defaultCategory" Name="ribbonDefaultPageCategory1">
+                        <dxr:RibbonPage Caption="Trang chủ" Name="rbpg_TrangChu" AllowRemoveFromParentDuringCustomization="False">
+                            <dxr:RibbonPageGroup Caption="Hệ thống" Name="rbpgr_HeThong">
+                                <dxb:BarButtonItemLink BarItemName="cmd_DangNhap"/>
+                            </dxr:RibbonPageGroup>
+                            <dxr:RibbonPageGroup Caption="Quản Lý Người dùng" Name="rbpgr_QuanLyND">
+                                <dxb:BarButtonItemLink BarItemName="cmd_ThongTinTK"/>
+                                <dxb:BarButtonItemLink BarItemName="cmd_NguoiDung" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_LoaiNguoiDung" />
+                            </dxr:RibbonPageGroup>
+                            <dxr:RibbonPageGroup Caption="Sinh Viên" Name="rbpgr_SinhVien">
+                                <dxb:BarButtonItemLink BarItemName="cmd_SinhVien" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_DanToc" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_TonGiao" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_XepLop" />
+                            </dxr:RibbonPageGroup>
+                            <dxr:RibbonPageGroup Caption="Giảng Viên" Name="rbpgr_GiangVien">
+                                <dxb:BarButtonItemLink BarItemName="cmd_GiangVien" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_HocVi" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_LoaiGiangVien" />
+                            </dxr:RibbonPageGroup>
+                            <dxr:RibbonPageGroup Caption="Danh mục khác" Name="rbpgr_DanhMucKhac">
+                                <dxb:BarButtonItemLink BarItemName="cmd_HocKy" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_Khoa" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_KhoaHoc" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_ChuyenNganh" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_MonHoc" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_LopHoc" />
+                            </dxr:RibbonPageGroup>
+                            <dxr:RibbonPageGroup Caption="Chức năng" Name="rbpgr_ChucNang">
+                                <dxb:BarButtonItemLink BarItemName="cmd_Thoat" />
+                            </dxr:RibbonPageGroup>
+                            
+                        </dxr:RibbonPage>
+                        <dxr:RibbonPage Caption="Thống kê" Name="rbpg_ThongKe">
+                            <dxr:RibbonPageGroup Caption="Kết quả học tập" Name="rbpgr_KetQuaHocTap">
+                                <dxb:BarButtonItemLink BarItemName="cmd_KetQuaHKTheoLop" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_KetQuaHKTheoMonHoc" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_KetQua1SinhVien" />
+                            </dxr:RibbonPageGroup>
+                            <!--<dxr:RibbonPageGroup Caption="Xuất danh sách" Name="rbpgr_XuatDanhSach">
+                                <dxb:BarButtonItemLink BarItemName="cmd_DanhSachSinhVien" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_DanhsachGiangVien" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_DanhSachLopHoc" />
+                            </dxr:RibbonPageGroup>-->
+                            <dxr:RibbonPageGroup Caption="Nhập điểm học tập" Name="rbpgr_NhapDiem">
+                                <dxb:BarButtonItemLink BarItemName="cmd_NhapDiem" />
+                            </dxr:RibbonPageGroup>
+                        </dxr:RibbonPage>
+                        <!--<dxr:RibbonPage Caption="Tra cứu" Name="rbpg_TraCuu">
+                            <dxr:RibbonPageGroup Caption="Tra cứu" Name="rbpgr_TraCuu">
+                                <dxb:BarButtonItemLink BarItemName="cmd_TraCuuSinhVien" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_TraCuuGiangVien" />
+                                <dxb:BarButtonItemLink BarItemName="cmd_TraCuuMonHoc" />
+                            </dxr:RibbonPageGroup>
+                        </dxr:RibbonPage>-->
+                        <dxr:RibbonPage Caption="Thông tin" Name="ribbonPage1">
+                            <dxr:RibbonPageGroup Caption="Trợ Giúp" Name="rbpgr_TroGiup">
+                                <dxb:BarButtonItemLink BarItemName="cmd_ThongTinPhanMem" />
+                            </dxr:RibbonPageGroup>
+                        </dxr:RibbonPage>
+                    </dxr:RibbonDefaultPageCategory>
+                </dxr:RibbonControl>
+                <StatusBar Height="30"   DockPanel.Dock="Bottom">
+                    <TextBlock Foreground="Red" Text="{Binding ElementName=frm_hethong,StringFormat='Xin Chào : {0}', Path=TenND}">
+                    </TextBlock>
+                </StatusBar>
+                <Grid Name="grd_formcon">
+                    <dxDocking:DockLayoutManager x:Name="dockManagerMainForm">
+                        <dxDocking:DockLayoutManager.Background>
+                                <ImageBrush ImageSource="/GUI;component/Resources/background.jpg" />
+                        </dxDocking:DockLayoutManager.Background>
+                        <dxDocking:LayoutGroup Name="rootLayoutGroup">
+                        </dxDocking:LayoutGroup>
+                    </dxDocking:DockLayoutManager>
+                </Grid>
+            </DockPanel>
+        </dxb:BarManager>
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+E:\De Tai Thuc Tap\QLSV\BUS\bin\Debug\BUS.dll
+E:\De Tai Thuc Tap\QLSV\BUS\bin\Debug\BUS.pdb
+E:\De Tai Thuc Tap\QLSV\BUS\obj\Debug\BUS.dll
+E:\De Tai Thuc Tap\QLSV\BUS\obj\Debug\BUS.pdb
+d:\De Tai Thuc Tap\QLSV\BUS\bin\Debug\BUS.dll
+d:\De Tai Thuc Tap\QLSV\BUS\bin\Debug\BUS.pdb
+d:\De Tai Thuc Tap\QLSV\BUS\obj\Debug\ResolveAssemblyReference.cache
+d:\De Tai Thuc Tap\QLSV\BUS\obj\Debug\BUS.dll
+d:\De Tai Thuc Tap\QLSV\BUS\obj\Debug\BUS.pdb
+d:\De Tai Thuc Tap\QLSV_4\QLSV\BUS\bin\Debug\BUS.dll
+d:\De Tai Thuc Tap\QLSV_4\QLSV\BUS\bin\Debug\BUS.pdb
+d:\De Tai Thuc Tap\QLSV_4\QLSV\BUS\obj\Debug\ResolveAssemblyReference.cache
+d:\De Tai Thuc Tap\QLSV_4\QLSV\BUS\obj\Debug\BUS.dll
+d:\De Tai Thuc Tap\QLSV_4\QLSV\BUS\obj\Debug\BUS.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\BUS\bin\Debug\BUS.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\BUS\bin\Debug\BUS.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\BUS\obj\Debug\Interop.ADOX.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\BUS\obj\Debug\BUS.csproj.ResolveComReference.cache
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\BUS\obj\Debug\BUS.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\BUS\obj\Debug\BUS.pdb
+d:\Dia thuctap\Source\QLSV\BUS\bin\Debug\BUS.dll
+d:\Dia thuctap\Source\QLSV\BUS\bin\Debug\BUS.pdb
+d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\ResolveAssemblyReference.cache
+d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\Interop.ADOX.dll
+d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\BUS.csproj.ResolveComReference.cache
+d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\BUS.dll
+d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\BUS.pdb

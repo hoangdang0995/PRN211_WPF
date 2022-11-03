@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B17455D2-C07B-4580-84E7-B420890ED5EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC\ADODB\7.0.3300.0__b03f5f7f11d50a3a\adodb.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Design.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\DevExpress.ExpressApp.Design.v12.2\12.2.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Design.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Core.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Docking.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Grid.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Grid.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Layout.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Printing.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Printing.v12.2.Core, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\a\Excel\bin\Debug\DevExpress.Xpf.Printing.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.2, Version=12.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="ISymWrapper" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient">
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="frm_CauHinhCSDL.xaml.cs">
+      <DependentUpon>frm_CauHinhCSDL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Chuyennganh.xaml.cs">
+      <DependentUpon>frm_Chuyennganh.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DangNhap.xaml.cs">
+      <DependentUpon>frm_DangNhap.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_CauHinhCSDL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_Chuyennganh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_DangNhap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_DanToc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_Giangvien.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_hocham_hocvi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_HocKy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_HeThongQuanLy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frm_DanToc.xaml.cs">
+      <DependentUpon>frm_DanToc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Giangvien.xaml.cs">
+      <DependentUpon>frm_Giangvien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_hocham_hocvi.xaml.cs">
+      <DependentUpon>frm_hocham_hocvi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HocKy.xaml.cs">
+      <DependentUpon>frm_HocKy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KetQuaCua1SinhVien.xaml.cs">
+      <DependentUpon>frm_KetQuaCua1SinhVien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KetQuaTheoLopHoc.xaml.cs">
+      <DependentUpon>frm_KetQuaTheoLopHoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KetQuaTheoMonHoc.xaml.cs">
+      <DependentUpon>frm_KetQuaTheoMonHoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Khoa.xaml.cs">
+      <DependentUpon>frm_Khoa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_khoahoc.xaml.cs">
+      <DependentUpon>frm_khoahoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LoaiNguoiDung.xaml.cs">
+      <DependentUpon>frm_LoaiNguoiDung.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_lophoc.xaml.cs">
+      <DependentUpon>frm_lophoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_monhoc.xaml.cs">
+      <DependentUpon>frm_monhoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Nguoidung.xaml.cs">
+      <DependentUpon>frm_Nguoidung.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NhapDiem.xaml.cs">
+      <DependentUpon>frm_NhapDiem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PhanQuyen.xaml.cs">
+      <DependentUpon>frm_PhanQuyen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Sinhvien.xaml.cs">
+      <DependentUpon>frm_Sinhvien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SinhVien_Lop.xaml.cs">
+      <DependentUpon>frm_SinhVien_Lop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThongTinPhanMem.xaml.cs">
+      <DependentUpon>frm_ThongTinPhanMem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThongTinTaiKhoan.xaml.cs">
+      <DependentUpon>frm_ThongTinTaiKhoan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Tongiao.xaml.cs">
+      <DependentUpon>frm_Tongiao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="G_system.cs" />
+    <Compile Include="frm_HeThongQuanLy.xaml.cs">
+      <DependentUpon>frm_HeThongQuanLy.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="frm_KetQuaCua1SinhVien.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_KetQuaTheoLopHoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_KetQuaTheoMonHoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_Khoa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_khoahoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_LoaiNguoiDung.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_lophoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_monhoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_Nguoidung.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_NhapDiem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_PhanQuyen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_Sinhvien.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_SinhVien_Lop.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_ThongTinPhanMem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_ThongTinTaiKhoan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frm_Tongiao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Loaigv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\Import.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="popup\pop_ChuyenNganh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_DanToc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_GiangVien.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_HocHamHocVi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_HocKy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_Khoa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_KhoaHoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_LoaiGiangVien.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_LoaiNguoiDung.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_LopHoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_MonHoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_NguoiDung.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_NhapDiem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_SinhVien.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_SinhVien_MonHoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="popup\pop_TonGiao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Loaigv.xaml.cs">
+      <DependentUpon>Loaigv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\Import.xaml.cs">
+      <DependentUpon>Import.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_ChuyenNganh.xaml.cs">
+      <DependentUpon>pop_ChuyenNganh.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_DanToc.xaml.cs">
+      <DependentUpon>pop_DanToc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_GiangVien.xaml.cs">
+      <DependentUpon>pop_GiangVien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_HocHamHocVi.xaml.cs">
+      <DependentUpon>pop_HocHamHocVi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_HocKy.xaml.cs">
+      <DependentUpon>pop_HocKy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_Khoa.xaml.cs">
+      <DependentUpon>pop_Khoa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_KhoaHoc.xaml.cs">
+      <DependentUpon>pop_KhoaHoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_LoaiGiangVien.xaml.cs">
+      <DependentUpon>pop_LoaiGiangVien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_LoaiNguoiDung.xaml.cs">
+      <DependentUpon>pop_LoaiNguoiDung.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_LopHoc.xaml.cs">
+      <DependentUpon>pop_LopHoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_MonHoc.xaml.cs">
+      <DependentUpon>pop_MonHoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_NguoiDung.xaml.cs">
+      <DependentUpon>pop_NguoiDung.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_NhapDiem.xaml.cs">
+      <DependentUpon>pop_NhapDiem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_SinhVien.xaml.cs">
+      <DependentUpon>pop_SinhVien.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_SinhVien_MonHoc.xaml.cs">
+      <DependentUpon>pop_SinhVien_MonHoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="popup\pop_TonGiao.xaml.cs">
+      <DependentUpon>pop_TonGiao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{DBF39374-05E7-4266-B25A-9291DEE543DB}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{050E6D7B-93A2-4F55-8499-A93A0EBFB1B8}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{B8C7087E-BD03-4300-B78F-87A8EDED25EA}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\47.png" />
+    <Resource Include="Resources\5.png" />
+    <Resource Include="Resources\56.png" />
+    <Resource Include="Resources\7.png" />
+    <Resource Include="Resources\80.png" />
+    <Resource Include="Resources\81.png" />
+    <Resource Include="Resources\add.png" />
+    <Resource Include="Resources\background.jpg" />
+    <Resource Include="Resources\background1.jpg" />
+    <Resource Include="Resources\background2.jpg" />
+    <Resource Include="Resources\bar.png" />
+    <Resource Include="Resources\bg_login.png" />
+    <Resource Include="Resources\Blu Style png pages.png" />
+    <Resource Include="Resources\Blu Style png pages1.png" />
+    <Resource Include="Resources\Blu Style png pages2.png" />
+    <Resource Include="Resources\Blu Style png pixadex2.png" />
+    <Resource Include="Resources\Blu Style png pixadex21.png" />
+    <Resource Include="Resources\btn_login.png" />
+    <Resource Include="Resources\closephanlop.png" />
+    <Resource Include="Resources\closephanlop1.png" />
+    <Resource Include="Resources\config.png" />
+    <Resource Include="Resources\dangnhap.png" />
+    <Resource Include="Resources\dangnhap_moi.png" />
+    <Resource Include="Resources\dangxuat.png" />
+    <Resource Include="Resources\dantoc.png" />
+    <Resource Include="Resources\delete.png" />
+    <Resource Include="Resources\diem.png" />
+    <Resource Include="Resources\doimatkhau.png" />
+    <Resource Include="Resources\dsgiaovien.png" />
+    <Resource Include="Resources\dshocsinh.png" />
+    <Resource Include="Resources\dslophoc.png" />
+    <Resource Include="Resources\exel 2007 3D.PNG" />
+    <Resource Include="Resources\exit.png" />
+    <Resource Include="Resources\frontpage8.png" />
+    <Resource Include="Resources\frontpage81.png" />
+    <Resource Include="Resources\frontpage82.png" />
+    <Resource Include="Resources\giangvien.png" />
+    <Resource Include="Resources\giaovien.png" />
+    <Resource Include="Resources\hanhkiem.png" />
+    <Resource Include="Resources\hocky.png" />
+    <Resource Include="Resources\hocluc.png" />
+    <Resource Include="Resources\ketqua.png" />
+    <Resource Include="Resources\khoilop.png" />
+    <Resource Include="Resources\kqcnamtheolop.png" />
+    <Resource Include="Resources\kqcnamtheomon.png" />
+    <Resource Include="Resources\kqhockytheolop.png" />
+    <Resource Include="Resources\kqhockytheomon.png" />
+    <Resource Include="Resources\lophoc.png" />
+    <Resource Include="Resources\luuchuyenlop.png" />
+    <Resource Include="Resources\monhoc.png" />
+    <Resource Include="Resources\monhoc1.png" />
+    <Resource Include="Resources\namhoc.png" />
+    <Resource Include="Resources\nghenghiep.png" />
+    <Resource Include="Resources\phancong.png" />
+    <Resource Include="Resources\phuchoidulieu.png" />
+    <Resource Include="Resources\pupils.png" />
+    <Resource Include="Resources\refresh.png" />
+    <Resource Include="Resources\save.png" />
+    <Resource Include="Resources\thoat.png" />
+    <Resource Include="Resources\thongtinphanmem.png" />
+    <Resource Include="Resources\tongiao.png" />
+    <Resource Include="Resources\tracuugiaovien.png" />
+    <Resource Include="Resources\tracuuhocsinh.png" />
+    <Resource Include="Resources\xeploai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\dsgiaovien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\xoabonho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\thongtinphanmem.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

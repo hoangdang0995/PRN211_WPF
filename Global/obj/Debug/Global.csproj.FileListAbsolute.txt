@@ -1,0 +1,4 @@
+E:\De Tai Thuc Tap\QLSV\Global\bin\Debug\Global.dll
+E:\De Tai Thuc Tap\QLSV\Global\bin\Debug\Global.pdb
+E:\De Tai Thuc Tap\QLSV\Global\obj\Debug\Global.dll
+E:\De Tai Thuc Tap\QLSV\Global\obj\Debug\Global.pdb

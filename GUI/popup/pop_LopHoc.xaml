@@ -1,0 +1,47 @@
+﻿<Window x:Class="GUI.popup.pop_LopHoc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DANH MỤC LỚP HỌC" MinHeight="320" MinWidth="400" MaxHeight="320" MaxWidth="400" KeyDown="Window_KeyDown" WindowStartupLocation="CenterScreen" WindowStyle="None" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Button.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120" />
+            <ColumnDefinition Width="250"  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16">Mã lớp :</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16">Tên lớp :</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="2" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16">Học Kỳ :</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="3" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16">Chuyên ngành :</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="4" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16">Khoá học :</TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="5" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="16">Số lượng :</TextBlock>
+        <TextBox Grid.Column="1" Grid.Row="0" Name="txt_malophoc" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Width="250" ></TextBox>
+        <TextBox Grid.Column="1" Grid.Row="1" Name="txt_tenlophoc" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Width="250" ></TextBox>
+        <ComboBox Grid.Column="1" Grid.Row="2" Name="cbx_hocky" Width="250" FontSize="16" Margin="0,2,0,2" HorizontalAlignment="Left"></ComboBox>
+        <ComboBox Grid.Column="1" Grid.Row="3" Name="cbx_chuyennganh"  HorizontalAlignment="Left" Margin="0,2,0,2" FontSize="16" Width="250" ></ComboBox>
+        <ComboBox Grid.Column="1" Grid.Row="4" Name="cbx_khoahoc" Width="250" FontSize="16" Margin="0,2,0,2" HorizontalAlignment="Left"/>
+        <TextBox Grid.Column="1" Grid.Row="5" Name="txt_soluong"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" Width="250" MaxLength="4" TextChanged="txt_soluong_TextChanged" />
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button Name="cmd_DongY" Grid.Column="0" Margin="5" FontSize="18" Style="{StaticResource ButtonStyle}" Click="cmd_DongY_Click">Đồng ý</Button>
+            <Button Name="cmd_Exit" Grid.Column="1" Margin="5" FontSize="18"   Style="{StaticResource ButtonStyle}" Click="cmd_Exit_Click">Thoát</Button>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+E:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DTO.dll
+E:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DTO.pdb
+E:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DAO.dll
+E:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DAO.pdb
+E:\De Tai Thuc Tap\QLSV\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\De Tai Thuc Tap\QLSV\DTO\obj\Debug\DTO.dll
+E:\De Tai Thuc Tap\QLSV\DTO\obj\Debug\DTO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\bin\Debug\DTO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\bin\Debug\DTO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\bin\Debug\DAO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\bin\Debug\DAO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\obj\Debug\DTO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DTO\obj\Debug\DTO.pdb
+D:\QLSV\DTO\bin\Debug\DTO.dll
+D:\QLSV\DTO\bin\Debug\DTO.pdb
+D:\QLSV\DTO\bin\Debug\DAO.dll
+D:\QLSV\DTO\bin\Debug\DAO.pdb
+D:\QLSV\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\QLSV\DTO\obj\Debug\DTO.dll
+D:\QLSV\DTO\obj\Debug\DTO.pdb
+d:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DTO.dll
+d:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DTO.pdb
+d:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DAO.dll
+d:\De Tai Thuc Tap\QLSV\DTO\bin\Debug\DAO.pdb
+d:\De Tai Thuc Tap\QLSV\DTO\obj\Debug\ResolveAssemblyReference.cache
+d:\De Tai Thuc Tap\QLSV\DTO\obj\Debug\DTO.dll
+d:\De Tai Thuc Tap\QLSV\DTO\obj\Debug\DTO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\bin\Debug\DTO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\bin\Debug\DTO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\bin\Debug\DAO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\bin\Debug\DAO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\obj\Debug\DTO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DTO\obj\Debug\DTO.pdb
+d:\Dia thuctap\Source\QLSV\DTO\bin\Debug\DTO.dll
+d:\Dia thuctap\Source\QLSV\DTO\bin\Debug\DTO.pdb
+d:\Dia thuctap\Source\QLSV\DTO\bin\Debug\DAO.dll
+d:\Dia thuctap\Source\QLSV\DTO\bin\Debug\DAO.pdb
+d:\Dia thuctap\Source\QLSV\DTO\obj\Debug\ResolveAssemblyReference.cache
+d:\Dia thuctap\Source\QLSV\DTO\obj\Debug\DTO.dll
+d:\Dia thuctap\Source\QLSV\DTO\obj\Debug\DTO.pdb

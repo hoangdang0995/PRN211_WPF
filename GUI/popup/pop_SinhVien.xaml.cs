@@ -1,0 +1,205 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+using System.Data;
+using DAO;
+
+namespace GUI.popup
+{
+    /// <summary>
+    /// Interaction logic for pop_SinhVien.xaml
+    /// </summary>
+    public partial class pop_SinhVien : Window
+    {
+        Database da = new Database();
+        string type = "";
+        string id = "";
+
+        private string New_Id()
+        {
+            DataTable dt = (new Database()).Select("SELECT MAX(MASINHVIEN) FROM SINHVIEN");
+            if (dt.Rows.Count > 0)
+            {
+                string str = dt.Rows[0][0].ToString();
+                str = str.Substring(2);
+                return "SV" + (int.Parse(str) + 1).ToString("00000000");
+            }
+            else
+                return "SV00000001";
+        }
+
+        public pop_SinhVien()
+        {
+            InitializeComponent();
+            type = "add";
+        }
+
+        public pop_SinhVien(string id)
+        {
+            InitializeComponent();
+            type = "edit";
+            this.id = id;
+        }
+
+        void LoadTonGiao()
+        {
+            DataTable dt = (new DAO.Database()).Select("SELECT MATONGIAO, TENTONGIAO FROM TONGIAO");
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                TextBlock _txttemp = new TextBlock();
+                _txttemp.Tag = dt.Rows[i]["MATONGIAO"].ToString();
+                _txttemp.Text = dt.Rows[i]["TENTONGIAO"].ToString();
+                cbx_tongiao.Items.Add(_txttemp);
+            }
+            if (dt.Rows.Count != 0)
+                cbx_tongiao.SelectedIndex = 0;
+        }
+
+        void LoadDanToc()
+        {
+            DataTable dt = (new DAO.Database()).Select("SELECT MADANTOC, TENDANTOC FROM DANTOC");
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                TextBlock _txttemp = new TextBlock();
+                _txttemp.Tag = dt.Rows[i]["MADANTOC"].ToString();
+                _txttemp.Text = dt.Rows[i]["TENDANTOC"].ToString();
+                cbx_dantoc.Items.Add(_txttemp);
+            }
+            if (dt.Rows.Count != 0)
+                cbx_dantoc.SelectedIndex = 0;
+        }
+
+        void Init_add()
+        {
+            txt_masosinhvien.Text = New_Id();
+            txt_masosinhvien.IsEnabled = false;
+            txt_tensinhvien.Text = "";
+            rdb_gtNam.IsChecked = true;
+            txt_noisinh.Text = "";
+            txt_hotencha.Text = "";
+            txt_hotenme.Text = "";
+            txt_sodienthoai.Text = "";
+            txt_email.Text = "";
+            txt_tensinhvien.Focus();
+        }
+
+        void Init_edit()
+        {
+            string sql = "SELECT MASINHVIEN,HOTENSINHVIEN,GIOITINH,NGAYSINH,NOISINH,SINHVIEN.MADANTOC,TENDANTOC,SINHVIEN.MATONGIAO,TENTONGIAO,HOTENCHA,HOTENME,DIENTHOAI,EMAIL FROM SINHVIEN,TONGIAO,DANTOC WHERE SINHVIEN.MATONGIAO=TONGIAO.MATONGIAO AND SINHVIEN.MADANTOC=DANTOC.MADANTOC AND MASINHVIEN = '" + id + "'";
+            DataTable dt = (new DAO.Database()).Select(sql);
+            if (dt.Rows.Count > 0)
+            {
+                txt_masosinhvien.Text = dt.Rows[0]["MASINHVIEN"].ToString();
+                txt_masosinhvien.IsEnabled = false;
+                txt_tensinhvien.Text = dt.Rows[0]["HOTENSINHVIEN"].ToString();
+                rdb_gtNam.IsChecked = true;
+                if (dt.Rows[0]["GIOITINH"].ToString() == "Nữ")
+                    rdb_gtNu.IsChecked = true;
+                txt_noisinh.Text = dt.Rows[0]["NOISINH"].ToString();
+
+                for (int i = 0; i < cbx_tongiao.Items.Count; i++)
+                {
+                    TextBlock _txttemp = (TextBlock)cbx_tongiao.Items[i];
+                    if (_txttemp.Tag.ToString() == dt.Rows[0]["MATONGIAO"].ToString())
+                    {
+                        cbx_tongiao.SelectedIndex = i;
+                        break;
+                    }
+                }
+
+                for (int i = 0; i < cbx_dantoc.Items.Count; i++)
+                {
+                    TextBlock _txttemp = (TextBlock)cbx_dantoc.Items[i];
+                    if (_txttemp.Tag.ToString() == dt.Rows[0]["MADANTOC"].ToString())
+                    {
+                        cbx_dantoc.SelectedIndex = i;
+                        break;
+                    }
+                }
+                string[] ngaysinh = dt.Rows[0]["NGAYSINH"].ToString().Split(new char[]{'/',' '});
+                dtp_ngaysinh.SelectedDate = new DateTime(int.Parse(ngaysinh[2]),int.Parse(ngaysinh[1]),int.Parse(ngaysinh[0])); 
+                txt_hotencha.Text = dt.Rows[0]["HOTENCHA"].ToString();
+                txt_hotenme.Text = dt.Rows[0]["HOTENME"].ToString();
+                txt_sodienthoai.Text = dt.Rows[0]["DIENTHOAI"].ToString();
+                txt_email.Text = dt.Rows[0]["EMAIL"].ToString();
+            }
+            txt_tensinhvien.Focus();
+        }
+
+        void Init()
+        {
+            LoadDanToc();
+            LoadTonGiao();
+            if (type == "add")
+                Init_add();
+            else if (type == "edit")
+                Init_edit();
+        }
+
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Init();
+        }
+
+        private void cmd_DongY_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string _ngaythangnam = dtp_ngaysinh.SelectedDate.Value.ToString("dd-MMM-yyyy");
+                string _Gioitinh = "Nam";
+                string _idtongiao = ((TextBlock)cbx_tongiao.SelectedItem).Tag.ToString();
+                string _iddantoc = ((TextBlock)cbx_dantoc.SelectedItem).Tag.ToString();
+
+                if (rdb_gtNu.IsChecked == true)
+                    _Gioitinh = "Nữ";
+                if (type == "add")
+                {
+                    string sql = "INSERT INTO SINHVIEN VALUES('" + txt_masosinhvien.Text + "','" + txt_tensinhvien.Text + "','" + _Gioitinh + "','" + _ngaythangnam + "','" + txt_noisinh.Text + "','" + _iddantoc + "','" + _idtongiao + "','" + txt_hotencha.Text + "','" + txt_hotenme.Text + "','" + txt_sodienthoai.Text + "','" + txt_email.Text + "')";
+                    da.Query(sql);
+                }
+                else if (type == "edit")
+                {
+                    string sql = "UPDATE SINHVIEN SET HOTENSINHVIEN = '" + txt_tensinhvien.Text + "',GIOITINH='" + _Gioitinh + "',NGAYSINH='" + _ngaythangnam + "',NOISINH='" + txt_noisinh.Text + "',MADANTOC='" + _iddantoc + "',MATONGIAO='" + _idtongiao + "',HOTENCHA='" + txt_hotencha.Text + "',HOTENME='" + txt_hotenme.Text + "',DIENTHOAI='" + txt_sodienthoai.Text + "',EMAIL='" + txt_email.Text + "' WHERE MASINHVIEN = '" + txt_masosinhvien.Text + "'";
+                    da.Query(sql);
+                }
+                this.DialogResult = true;
+                Close();
+            }
+            catch
+            {
+                MessageBox.Show("Thông tin nhập chưa chính xác, xin vui lòng kiểm tra lại!\nChú ý: Địa chỉ e-mail không được trùng!");
+            }
+        }
+
+        private void cmd_Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = false;
+            Close();
+        }
+
+        private void txt_sodienthoai_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            double tam;
+            if (double.TryParse(txt_sodienthoai.Text, out tam))
+                txt_sodienthoai.Text = txt_sodienthoai.Text;
+            else
+                txt_sodienthoai.Text = "";
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+                this.Close();
+        }
+    }
+}

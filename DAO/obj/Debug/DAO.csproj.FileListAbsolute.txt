@@ -1,0 +1,27 @@
+E:\De Tai Thuc Tap\QLSV\DAO\bin\Debug\DAO.dll
+E:\De Tai Thuc Tap\QLSV\DAO\bin\Debug\DAO.pdb
+E:\De Tai Thuc Tap\QLSV\DAO\obj\Debug\DAO.dll
+E:\De Tai Thuc Tap\QLSV\DAO\obj\Debug\DAO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DAO\bin\Debug\DAO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DAO\bin\Debug\DAO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DAO\obj\Debug\DAO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\DAO\obj\Debug\DAO.pdb
+D:\QLSV\DAO\bin\Debug\DAO.dll
+D:\QLSV\DAO\bin\Debug\DAO.pdb
+D:\QLSV\DAO\obj\Debug\DAO.dll
+D:\QLSV\DAO\obj\Debug\DAO.pdb
+d:\De Tai Thuc Tap\QLSV\DAO\bin\Debug\DAO.dll
+d:\De Tai Thuc Tap\QLSV\DAO\bin\Debug\DAO.pdb
+d:\De Tai Thuc Tap\QLSV\DAO\obj\Debug\ResolveAssemblyReference.cache
+d:\De Tai Thuc Tap\QLSV\DAO\obj\Debug\DAO.dll
+d:\De Tai Thuc Tap\QLSV\DAO\obj\Debug\DAO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DAO\bin\Debug\DAO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DAO\bin\Debug\DAO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DAO\obj\Debug\DAO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\DAO\obj\Debug\DAO.pdb
+d:\Dia thuctap\Source\QLSV\DAO\bin\Debug\DAO.dll
+d:\Dia thuctap\Source\QLSV\DAO\bin\Debug\DAO.pdb
+d:\Dia thuctap\Source\QLSV\DAO\obj\Debug\ResolveAssemblyReference.cache
+d:\Dia thuctap\Source\QLSV\DAO\obj\Debug\DAO.dll
+d:\Dia thuctap\Source\QLSV\DAO\obj\Debug\DAO.pdb

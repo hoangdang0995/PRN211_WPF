@@ -1,0 +1,439 @@
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\GUI.exe.config
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\GUI.exe
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\GUI.pdb
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\BUS.dll
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DAO.dll
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DTO.dll
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\BUS.pdb
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DAO.pdb
+E:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DTO.pdb
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\App.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.g.resources
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.exe.licenses
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.exe
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.pdb
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DanToc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DanToc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\GUI.exe.config
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GUI.exe
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GUI.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\GUI.exe
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\GUI.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\BUS.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\DAO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\DTO.dll
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\BUS.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\DAO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\bin\Debug\DTO.pdb
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_DanToc.baml
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.baml
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.baml
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_DanToc.g.cs
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.g.cs
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.g.cs
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\App.g.cs
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GUI.g.resources
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\GUI.exe.licenses
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Giangvien.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Giangvien.g.cs
+D:\QLSV\GUI\bin\Debug\GUI.exe.config
+D:\QLSV\GUI\obj\x86\Debug\GUI.exe
+D:\QLSV\GUI\obj\x86\Debug\GUI.pdb
+D:\QLSV\GUI\bin\Debug\GUI.exe
+D:\QLSV\GUI\bin\Debug\GUI.pdb
+D:\QLSV\GUI\bin\Debug\BUS.dll
+D:\QLSV\GUI\bin\Debug\DAO.dll
+D:\QLSV\GUI\bin\Debug\DTO.dll
+D:\QLSV\GUI\bin\Debug\BUS.pdb
+D:\QLSV\GUI\bin\Debug\DAO.pdb
+D:\QLSV\GUI\bin\Debug\DTO.pdb
+D:\QLSV\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
+D:\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
+D:\QLSV\GUI\obj\x86\Debug\frm_DanToc.baml
+D:\QLSV\GUI\obj\x86\Debug\frm_Giangvien.baml
+D:\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.baml
+D:\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
+D:\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.baml
+D:\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
+D:\QLSV\GUI\obj\x86\Debug\frm_DanToc.g.cs
+D:\QLSV\GUI\obj\x86\Debug\frm_Giangvien.g.cs
+D:\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.g.cs
+D:\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
+D:\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.g.cs
+D:\QLSV\GUI\obj\x86\Debug\App.g.cs
+D:\QLSV\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+D:\QLSV\GUI\obj\x86\Debug\GUI.g.resources
+D:\QLSV\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+D:\QLSV\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+D:\QLSV\GUI\obj\x86\Debug\GUI.exe.licenses
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\GUI.exe.config
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.exe
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.pdb
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DanToc.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Giangvien.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_DanToc.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Giangvien.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_KetNoiCSDL.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\App.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\GUI.exe
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\GUI.pdb
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\BUS.dll
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DAO.dll
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DTO.dll
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\BUS.pdb
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DAO.pdb
+d:\De Tai Thuc Tap\QLSV\GUI\bin\Debug\DTO.pdb
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Resources\Button.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.g.resources
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\GUI.exe.licenses
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Tongiao.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Tongiao.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.g.cs
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Loaigv.baml
+d:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Loaigv.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Giangvien.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Tongiao.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Resources\Button.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Giangvien.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Tongiao.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Loaigv.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\Loaigv.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_HocKy.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Tongiao.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\Loaigv.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\Resources\Button.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_HocKy.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Tongiao.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\Loaigv.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Khoa.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_Khoa.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_khoahoc.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_lophoc.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_monhoc.baml
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_khoahoc.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_lophoc.g.cs
+d:\De Tai Thuc Tap\QLSV_4\QLSV\GUI\obj\x86\Debug\frm_monhoc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_HocKy.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Khoa.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_khoahoc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_lophoc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_monhoc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_ChuyenNganh.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_HocKy.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_Khoa.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_KhoaHoc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_LopHoc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_HocKy.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_Khoa.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_khoahoc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_lophoc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_monhoc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_ChuyenNganh.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_HocKy.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_Khoa.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_KhoaHoc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_LopHoc.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_NhapDiem.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\frm_NhapDiem.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.g.cs
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_MonHoc.baml
+E:\De Tai Thuc Tap\QLSV\GUI\obj\x86\Debug\popup\pop_MonHoc.g.cs
+J:\QLSV\GUI\bin\Debug\GUI.exe.config
+J:\QLSV\GUI\obj\x86\Debug\GUI.exe
+J:\QLSV\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\GUI.exe.config
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\GUI.exe
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\GUI.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\BUS.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\DAO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\DTO.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\BUS.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\DAO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\bin\Debug\DTO.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.csproj.ResolveComReference.cache
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_CauHinhCSDL.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_DanToc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Giangvien.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_HocKy.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoLopHoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoMonHoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Khoa.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_khoahoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_LoaiNguoiDung.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_lophoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_monhoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_NhapDiem.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_PhanQuyen.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_ThongTinTaiKhoan.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Tongiao.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\Loaigv.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\Import.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_ChuyenNganh.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_HocKy.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_Khoa.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_KhoaHoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiNguoiDung.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_LopHoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_MonHoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\Resources\Button.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_CauHinhCSDL.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_DanToc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Giangvien.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_HocKy.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoLopHoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoMonHoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Khoa.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_khoahoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_LoaiNguoiDung.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_lophoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_monhoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_NhapDiem.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_PhanQuyen.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_ThongTinTaiKhoan.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_Tongiao.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\Loaigv.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\Import.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_ChuyenNganh.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_HocKy.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_Khoa.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_KhoaHoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiNguoiDung.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_LopHoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_MonHoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\App.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.g.resources
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.exe.licenses
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.exe
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_SinhVien_Lop.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_SinhVien_Lop.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien_MonHoc.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien_MonHoc.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_KetQuaCua1SinhVien.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_KetQuaCua1SinhVien.g.cs
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_ThongTinPhanMem.baml
+C:\Users\Oanhtran23.vnvt\Desktop\QLSV\GUI\obj\x86\Debug\frm_ThongTinPhanMem.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\GUI.exe.config
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\Interop.ADOX.dll
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI.csproj.ResolveComReference.cache
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI.exe
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI.pdb
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\GUI.exe
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\GUI.pdb
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\BUS.dll
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\DAO.dll
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\DTO.dll
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\BUS.pdb
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\DAO.pdb
+d:\Dia thuctap\Source\QLSV\GUI\bin\Debug\DTO.pdb
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_CauHinhCSDL.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_DanToc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Giangvien.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_HocKy.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_KetQuaCua1SinhVien.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoLopHoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoMonHoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Khoa.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_khoahoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_LoaiNguoiDung.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_lophoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_monhoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_NhapDiem.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_PhanQuyen.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_SinhVien_Lop.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_ThongTinPhanMem.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_ThongTinTaiKhoan.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Tongiao.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\Loaigv.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\Import.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_ChuyenNganh.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_HocKy.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_Khoa.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_KhoaHoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiNguoiDung.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_LopHoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_MonHoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien_MonHoc.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\Resources\Button.baml
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_CauHinhCSDL.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Chuyennganh.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_DanToc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Giangvien.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_hocham_hocvi.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_HocKy.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_KetQuaCua1SinhVien.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoLopHoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_KetQuaTheoMonHoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Khoa.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_khoahoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_LoaiNguoiDung.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_lophoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_monhoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_NhapDiem.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_PhanQuyen.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_SinhVien_Lop.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_ThongTinPhanMem.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_ThongTinTaiKhoan.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\frm_Tongiao.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\Loaigv.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\Import.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_ChuyenNganh.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_DanToc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_GiangVien.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_HocHamHocVi.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_HocKy.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_Khoa.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_KhoaHoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiGiangVien.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_LoaiNguoiDung.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_LopHoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_MonHoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_SinhVien_MonHoc.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\popup\pop_TonGiao.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\App.g.cs
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI_MarkupCompile.cache
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI.g.resources
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Dia thuctap\Source\QLSV\GUI\obj\x86\Debug\GUI.exe.licenses

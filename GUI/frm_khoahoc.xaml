@@ -1,0 +1,49 @@
+﻿<UserControl xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"   x:Class="GUI.frm_khoahoc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="1000" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Button.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <GroupBox Name="grbthongtin" Grid.Row="0" Background="#FF3EA6BA">
+            <Grid HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Margin="5" Height="50" Width="100" x:Name="cmdadd"  Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdadd_Click">Thêm</Button>
+                <Button Grid.Column="1" Margin="5" Height="50" Width="100" x:Name="cmdedit"  Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdedit_Click">Sửa</Button>
+                <Button Grid.Column="2" Margin="5" Height="50" Width="100" x:Name="cmddelete"  Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmddelete_Click">Xóa</Button>
+                <!--<Button Grid.Column="3" Margin="5" Height="50" Width="120" x:Name="cmdimport" Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdimport_Click">Import</Button>-->
+                <Button Grid.Column="4" Margin="5" Height="50" Width="100" x:Name="cmdexport"  Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdexport_Click">Xuất tập tin</Button>
+            </Grid>
+        </GroupBox>
+        <dxg:GridControl Name="gctrl_khoahoc" Margin="0,0,12,0" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top"  AutoPopulateColumns="False" AllowColumnMRUFilterList="True" AllowMRUFilterList="True" IsFilterEnabled="True" ShowLoadingPanel="False" ShowBorder="False" AutoExpandAllGroups="True" IsRecursiveExpand="False" DesignTimeUseDistinctSampleValues="True" DesignTimeShowSampleData="True" IsEnabled="True">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="MAKHOAHOC" Header="MÃ KHÓA HỌC" ReadOnly="True" />
+                <dxg:GridColumn FieldName="TENKHOAHOC" Header="TÊN KHÓA HỌC" ReadOnly="True" />
+                <dxg:GridColumn FieldName="NAMBATDAU" Header="NĂM BẮT ĐẦU" ReadOnly="True" />
+                <dxg:GridColumn FieldName="MOTA" Header="MÔ TẢ" ReadOnly="True" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView Name="View"  AutoWidth="True" ShowTotalSummary="True" ShowFixedTotalSummary="True" SearchString=" " ShowSearchPanelFindButton="True" SearchPanelClearOnClose="True"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+            
+    </Grid>
+</UserControl>
