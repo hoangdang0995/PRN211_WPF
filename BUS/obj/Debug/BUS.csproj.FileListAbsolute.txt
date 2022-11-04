@@ -25,3 +25,11 @@ d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\Interop.ADOX.dll
 d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\BUS.csproj.ResolveComReference.cache
 d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\BUS.dll
 d:\Dia thuctap\Source\QLSV\BUS\obj\Debug\BUS.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\bin\Debug\BUS.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\bin\Debug\BUS.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Debug\Interop.ADOX.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Debug\BUS.csproj.ResolveComReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Debug\BUS.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Debug\BUS.pdb

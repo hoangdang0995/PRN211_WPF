@@ -40,3 +40,12 @@ d:\Dia thuctap\Source\QLSV\DTO\bin\Debug\DAO.pdb
 d:\Dia thuctap\Source\QLSV\DTO\obj\Debug\ResolveAssemblyReference.cache
 d:\Dia thuctap\Source\QLSV\DTO\obj\Debug\DTO.dll
 d:\Dia thuctap\Source\QLSV\DTO\obj\Debug\DTO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Debug\DTO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Debug\DTO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Debug\DAO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Debug\DAO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Debug\DTO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Debug\DTO.pdb

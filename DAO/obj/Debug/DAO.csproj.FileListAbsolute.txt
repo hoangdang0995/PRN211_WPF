@@ -25,3 +25,9 @@ d:\Dia thuctap\Source\QLSV\DAO\bin\Debug\DAO.pdb
 d:\Dia thuctap\Source\QLSV\DAO\obj\Debug\ResolveAssemblyReference.cache
 d:\Dia thuctap\Source\QLSV\DAO\obj\Debug\DAO.dll
 d:\Dia thuctap\Source\QLSV\DAO\obj\Debug\DAO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DAO\bin\Debug\DAO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DAO\bin\Debug\DAO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DAO\obj\Debug\DAO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DAO\obj\Debug\DAO.pdb

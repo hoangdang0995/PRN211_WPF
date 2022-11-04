@@ -9,22 +9,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using DevExpress.Core;
-using DevExpress.Xpf.Bars;
-using DevExpress.Xpf.Core;
-using DevExpress.Xpf.Core.ConditionalFormatting;
-using DevExpress.Xpf.Core.DataSources;
-using DevExpress.Xpf.Core.Serialization;
-using DevExpress.Xpf.Core.ServerMode;
 using DevExpress.Xpf.DXBinding;
-using DevExpress.Xpf.Data;
-using DevExpress.Xpf.Docking;
-using DevExpress.Xpf.Docking.Base;
 using DevExpress.Xpf.Grid;
 using DevExpress.Xpf.Grid.ConditionalFormatting;
 using DevExpress.Xpf.Grid.LookUp;
 using DevExpress.Xpf.Grid.TreeList;
-using DevExpress.Xpf.Ribbon;
 using System;
 using System.Diagnostics;
 using System.Windows;
