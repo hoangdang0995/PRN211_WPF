@@ -25,26 +25,26 @@ namespace GUI
             InitializeComponent();
         }
 
-        private void role()
-        {
-            DataTable dtpquyen = frm_HeThongQuanLy.dtquyen;
-            if (frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen) > -1)
-            {
-                cmd_Add.IsEnabled = false;
-                if (dtpquyen.Rows[frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen)]["THEM"].ToString().ToLower() == "true")
-                    cmd_Add.IsEnabled = true;
-                cmd_Edit.IsEnabled = false;
-                if (dtpquyen.Rows[frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen)]["SUA"].ToString().ToLower() == "true")
-                    cmd_Edit.IsEnabled = true;
-                cmd_Delete.IsEnabled = false;
-                if (dtpquyen.Rows[frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen)]["XOA"].ToString().ToLower() == "true")
-                    cmd_Delete.IsEnabled = true;
-            }
-        }
+        //private void role()
+        //{
+        //    DataTable dtpquyen = frm_HeThongQuanLy.dtquyen;
+        //    if (frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen) > -1)
+        //    {
+        //        cmd_Add.IsEnabled = false;
+        //        if (dtpquyen.Rows[frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen)]["THEM"].ToString().ToLower() == "true")
+        //            cmd_Add.IsEnabled = true;
+        //        cmd_Edit.IsEnabled = false;
+        //        if (dtpquyen.Rows[frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen)]["SUA"].ToString().ToLower() == "true")
+        //            cmd_Edit.IsEnabled = true;
+        //        cmd_Delete.IsEnabled = false;
+        //        if (dtpquyen.Rows[frm_HeThongQuanLy.timtenformtrongdt("SINHVIEN", dtpquyen)]["XOA"].ToString().ToLower() == "true")
+        //            cmd_Delete.IsEnabled = true;
+        //    }
+        //}
 
         void Init()
         {
-            DataTable dt = (new DAO.Database()).Select("SELECT MASINHVIEN,HOTENSINHVIEN,GIOITINH,NGAYSINH,NOISINH,DANTOC.MADANTOC,DANTOC.TENDANTOC,TONGIAO.MATONGIAO,TONGIAO.TENTONGIAO,HOTENCHA,HOTENME,DIENTHOAI,EMAIL FROM SINHVIEN,TONGIAO,DANTOC WHERE SINHVIEN.MATONGIAO=TONGIAO.MATONGIAO AND SINHVIEN.MADANTOC=DANTOC.MADANTOC ORDER BY MASINHVIEN");
+            DataTable dt = (new DAO.Database()).Select("SELECT MASINHVIEN,HOTENSINHVIEN,GIOITINH,NGAYSINH,NOISINH,HOTENCHA,HOTENME,DIENTHOAI,EMAIL FROM SINHVIEN ORDER BY MASINHVIEN");
             gctrl_SinhVien.ItemsSource = dt;
         }
 
@@ -57,7 +57,7 @@ namespace GUI
         {
             Load_SinhVien();
             View.Commands.ShowSearchPanel.Execute(null);
-            role();
+            //role();
         }
 
         private void cmd_Add_Click(object sender, RoutedEventArgs e)

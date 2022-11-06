@@ -62,18 +62,12 @@ namespace GUI
 
         private void cmdadd_Click(object sender, RoutedEventArgs e)
         {
-            popup.pop_LopHoc _lophoc = new popup.pop_LopHoc();
-            var res = _lophoc.ShowDialog();
-            if (res == true)
-                Init();
+            
         }
 
         private void cmdedit_Click(object sender, RoutedEventArgs e)
         {
-            popup.pop_LopHoc _lophoc = new popup.pop_LopHoc(gctrl_lophoc.GetFocusedRowCellValue("MALOP").ToString());
-            var res = _lophoc.ShowDialog();
-            if (res == true)
-                Init();
+            
         }
 
         private void cmddelete_Click(object sender, RoutedEventArgs e)

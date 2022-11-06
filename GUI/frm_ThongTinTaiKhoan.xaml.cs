@@ -27,7 +27,7 @@ namespace GUI
             InitializeComponent();
             txt_TenNguoiDung.Text = setting.Default.tennguoidung;
             txt_TenDangNhap.Text = setting.Default.iddangnhap;
-            txt_LoaiNguoiDung.Text = setting.Default.loainguoidung;
+            //txt_LoaiNguoiDung.Text = setting.Default.loainguoidung;
             pw_pass.Password = setting.Default.matkhau;
         }
             

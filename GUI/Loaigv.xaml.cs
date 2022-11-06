@@ -61,22 +61,12 @@ namespace GUI
 
         private void cmd_add_Click(object sender, RoutedEventArgs e)
         {
-            popup.pop_LoaiGiangVien _loaigv = new popup.pop_LoaiGiangVien();
-            var res = _loaigv.ShowDialog();
-            if (res == true)
-            {
-                Init();
-            }
+           
         }
 
         private void cmd_edit_Click(object sender, RoutedEventArgs e)
         {
-            popup.pop_LoaiGiangVien _loaigv = new popup.pop_LoaiGiangVien(gctrlLoaiGV.GetFocusedRowCellValue("MALOAIGV").ToString());
-            var res = _loaigv.ShowDialog();
-            if (res == true)
-            {
-                Init();
-            }
+            
         }
 
         private void cmd_delete_Click(object sender, RoutedEventArgs e)

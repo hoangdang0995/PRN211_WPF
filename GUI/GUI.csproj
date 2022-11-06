@@ -117,12 +117,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="frm_CauHinhCSDL.xaml.cs">
-      <DependentUpon>frm_CauHinhCSDL.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Chuyennganh.xaml.cs">
-      <DependentUpon>frm_Chuyennganh.xaml</DependentUpon>
-    </Compile>
     <Compile Include="frm_DangNhap.xaml.cs">
       <DependentUpon>frm_DangNhap.xaml</DependentUpon>
     </Compile>
@@ -130,31 +124,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="frm_CauHinhCSDL.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_Chuyennganh.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="frm_DangNhap.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_DanToc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_Giangvien.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_hocham_hocvi.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_HocKy.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -166,36 +136,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="frm_DanToc.xaml.cs">
-      <DependentUpon>frm_DanToc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Giangvien.xaml.cs">
-      <DependentUpon>frm_Giangvien.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_hocham_hocvi.xaml.cs">
-      <DependentUpon>frm_hocham_hocvi.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_HocKy.xaml.cs">
-      <DependentUpon>frm_HocKy.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_KetQuaCua1SinhVien.xaml.cs">
-      <DependentUpon>frm_KetQuaCua1SinhVien.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_KetQuaTheoLopHoc.xaml.cs">
-      <DependentUpon>frm_KetQuaTheoLopHoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_KetQuaTheoMonHoc.xaml.cs">
-      <DependentUpon>frm_KetQuaTheoMonHoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Khoa.xaml.cs">
-      <DependentUpon>frm_Khoa.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_khoahoc.xaml.cs">
-      <DependentUpon>frm_khoahoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_LoaiNguoiDung.xaml.cs">
-      <DependentUpon>frm_LoaiNguoiDung.xaml</DependentUpon>
-    </Compile>
     <Compile Include="frm_lophoc.xaml.cs">
       <DependentUpon>frm_lophoc.xaml</DependentUpon>
     </Compile>
@@ -205,56 +145,20 @@
     <Compile Include="frm_Nguoidung.xaml.cs">
       <DependentUpon>frm_Nguoidung.xaml</DependentUpon>
     </Compile>
-    <Compile Include="frm_NhapDiem.xaml.cs">
-      <DependentUpon>frm_NhapDiem.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_PhanQuyen.xaml.cs">
-      <DependentUpon>frm_PhanQuyen.xaml</DependentUpon>
-    </Compile>
     <Compile Include="frm_Sinhvien.xaml.cs">
       <DependentUpon>frm_Sinhvien.xaml</DependentUpon>
     </Compile>
     <Compile Include="frm_SinhVien_Lop.xaml.cs">
       <DependentUpon>frm_SinhVien_Lop.xaml</DependentUpon>
     </Compile>
-    <Compile Include="frm_ThongTinPhanMem.xaml.cs">
-      <DependentUpon>frm_ThongTinPhanMem.xaml</DependentUpon>
-    </Compile>
     <Compile Include="frm_ThongTinTaiKhoan.xaml.cs">
       <DependentUpon>frm_ThongTinTaiKhoan.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Tongiao.xaml.cs">
-      <DependentUpon>frm_Tongiao.xaml</DependentUpon>
     </Compile>
     <Compile Include="G_system.cs" />
     <Compile Include="frm_HeThongQuanLy.xaml.cs">
       <DependentUpon>frm_HeThongQuanLy.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="frm_KetQuaCua1SinhVien.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_KetQuaTheoLopHoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_KetQuaTheoMonHoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_Khoa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_khoahoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_LoaiNguoiDung.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="frm_lophoc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -267,14 +171,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="frm_NhapDiem.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_PhanQuyen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="frm_Sinhvien.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -283,67 +179,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="frm_ThongTinPhanMem.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="frm_ThongTinTaiKhoan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="frm_Tongiao.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Loaigv.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\Import.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="popup\pop_ChuyenNganh.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_DanToc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_GiangVien.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_HocHamHocVi.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_HocKy.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_Khoa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_KhoaHoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_LoaiGiangVien.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_LoaiNguoiDung.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_LopHoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_MonHoc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -359,14 +199,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="popup\pop_SinhVien_MonHoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="popup\pop_TonGiao.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Resources\Button.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -376,42 +208,6 @@
     <Compile Include="Loaigv.xaml.cs">
       <DependentUpon>Loaigv.xaml</DependentUpon>
     </Compile>
-    <Compile Include="popup\Import.xaml.cs">
-      <DependentUpon>Import.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_ChuyenNganh.xaml.cs">
-      <DependentUpon>pop_ChuyenNganh.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_DanToc.xaml.cs">
-      <DependentUpon>pop_DanToc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_GiangVien.xaml.cs">
-      <DependentUpon>pop_GiangVien.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_HocHamHocVi.xaml.cs">
-      <DependentUpon>pop_HocHamHocVi.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_HocKy.xaml.cs">
-      <DependentUpon>pop_HocKy.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_Khoa.xaml.cs">
-      <DependentUpon>pop_Khoa.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_KhoaHoc.xaml.cs">
-      <DependentUpon>pop_KhoaHoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_LoaiGiangVien.xaml.cs">
-      <DependentUpon>pop_LoaiGiangVien.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_LoaiNguoiDung.xaml.cs">
-      <DependentUpon>pop_LoaiNguoiDung.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_LopHoc.xaml.cs">
-      <DependentUpon>pop_LopHoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_MonHoc.xaml.cs">
-      <DependentUpon>pop_MonHoc.xaml</DependentUpon>
-    </Compile>
     <Compile Include="popup\pop_NguoiDung.xaml.cs">
       <DependentUpon>pop_NguoiDung.xaml</DependentUpon>
     </Compile>
@@ -420,12 +216,6 @@
     </Compile>
     <Compile Include="popup\pop_SinhVien.xaml.cs">
       <DependentUpon>pop_SinhVien.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_SinhVien_MonHoc.xaml.cs">
-      <DependentUpon>pop_SinhVien_MonHoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="popup\pop_TonGiao.xaml.cs">
-      <DependentUpon>pop_TonGiao.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

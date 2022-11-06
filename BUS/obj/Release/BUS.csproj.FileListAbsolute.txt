@@ -1,0 +1,8 @@
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\bin\Release\BUS.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\bin\Release\BUS.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Release\BUS.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Release\Interop.ADOX.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Release\BUS.csproj.ResolveComReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Release\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Release\BUS.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\BUS\obj\Release\BUS.pdb

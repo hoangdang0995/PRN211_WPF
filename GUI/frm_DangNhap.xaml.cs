@@ -39,10 +39,10 @@ namespace GUI
                 setting.Default.iddangnhap = dt.Rows[0]["TENDANGNHAP"].ToString();
                 setting.Default.matkhau = dt.Rows[0]["MATKHAU"].ToString();                
 
-                DataTable dta = (new DAO.Database()).Select("SELECT * FROM LOAINGUOIDUNG, NGUOIDUNG WHERE LOAINGUOIDUNG.MALOAI=NGUOIDUNG.MALOAI AND TENDANGNHAP='" + dt.Rows[0]["TENDANGNHAP"].ToString() + "'");
+                //DataTable dta = (new DAO.Database()).Select("SELECT * FROM LOAINGUOIDUNG, NGUOIDUNG WHERE LOAINGUOIDUNG.MALOAI=NGUOIDUNG.MALOAI AND TENDANGNHAP='" + dt.Rows[0]["TENDANGNHAP"].ToString() + "'");
 
-                setting.Default.loainguoidung = dta.Rows[0]["TENLOAIND"].ToString();
-                setting.Default.maloainguoidung = dta.Rows[0]["MALOAI"].ToString();
+                //setting.Default.loainguoidung = dta.Rows[0]["TENLOAIND"].ToString();
+                //setting.Default.maloainguoidung = dta.Rows[0]["MALOAI"].ToString();
 
                 setting.Default.Save();
                 G_system.ShowForm("frm_HeThongQuanLy", "GUI");
@@ -65,12 +65,6 @@ namespace GUI
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             
-        }
-
-        private void cmd_CauHinhCSDL_Click(object sender, RoutedEventArgs e)
-        {
-            frm_CauHinhCSDL _cauhinh = new frm_CauHinhCSDL();
-            _cauhinh.ShowDialog();
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)

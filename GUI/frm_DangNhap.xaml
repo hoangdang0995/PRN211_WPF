@@ -40,8 +40,7 @@
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
                 <Button Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="18" Height="32" Width="135" Name="cmd_DangNhap" Click="cmd_DangNhap_Click">Đăng nhập</Button>
-                <Button Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="18" Height="32" Width="135" Name="cmd_CauHinhCSDL" Click="cmd_CauHinhCSDL_Click">Cấu hình CSDL</Button>
-            </Grid>
+             </Grid>
         </Grid>
     </Grid>
 </Window>

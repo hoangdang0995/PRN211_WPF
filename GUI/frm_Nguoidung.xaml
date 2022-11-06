@@ -30,7 +30,6 @@
                 <Button Width="100" x:Name="cmdedit"  Height="50"  Margin="5"  Grid.Column="1" Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdedit_Click">Sửa</Button>
                 <Button Width="100" x:Name="cmddelete"  Height="50"  Margin="5"  Grid.Column="2" Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmddelete_Click">Xóa</Button>
                 <!--<Button Height="50"  Width="120"  Grid.Column="3"  Margin="5"  x:Name="cmdimport" Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdimport_Click">Import</Button>-->
-                <Button Width="100" Grid.Column="4" x:Name="cmdexport"  Margin="5"  Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdexport_Click">Xuất tập tin</Button>
             </Grid>
         </GroupBox>
         <dxg:GridControl  Grid.Row="1" Name="gctrl_nguoidung" AutoPopulateColumns="False" Margin="0,0,12,0" AllowColumnMRUFilterList="True" AllowMRUFilterList="True" IsFilterEnabled="True" ShowLoadingPanel="False" ShowBorder="False" AutoExpandAllGroups="True" IsRecursiveExpand="False" DesignTimeUseDistinctSampleValues="True" DesignTimeShowSampleData="True" IsEnabled="True">

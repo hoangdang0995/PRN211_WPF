@@ -1,0 +1,9 @@
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Release\DTO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Release\DTO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Release\DAO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\bin\Release\DAO.pdb
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Release\DTO.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Release\DTO.csproj.CopyComplete
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Release\DTO.dll
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\DTO\obj\Release\DTO.pdb

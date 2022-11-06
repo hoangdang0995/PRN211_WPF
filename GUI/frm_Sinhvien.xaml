@@ -30,7 +30,6 @@
                 <Button Grid.Column="1" Margin="5" Height="50" Width="100" Style="{StaticResource ButtonStyle}" FontSize="16" Name="cmd_Edit" Click="cmd_Edit_Click">Sửa</Button>
                 <Button Grid.Column="2" Margin="5" Height="50" Width="100" Style="{StaticResource ButtonStyle}" FontSize="16" Name="cmd_Delete" Click="cmd_Delete_Click">Xoá</Button>
                 <!--<Button Grid.Column="3" Margin="5" Height="50" Width="120" x:Name="cmdimport" Style="{StaticResource ButtonStyle}" FontSize="16">Import</Button>-->
-                <Button Grid.Column="4" Margin="5" Height="50" Width="100" x:Name="cmdexport"  Style="{StaticResource ButtonStyle}" FontSize="16" Click="cmdexport_Click">Xuất tập tin</Button>
             </Grid>
         </GroupBox>
         <dxg:GridControl Grid.Row="1" Name="gctrl_SinhVien" Background="#FFC19494" BorderBrush="#FFB44747" Foreground="#FF0A0909" AutoPopulateColumns="False" Margin="0,0,12,0" AllowColumnMRUFilterList="True" AllowMRUFilterList="True" IsFilterEnabled="True" ShowLoadingPanel="False" ShowBorder="False" AutoExpandAllGroups="True" IsRecursiveExpand="False" DesignTimeUseDistinctSampleValues="True" DesignTimeShowSampleData="True" IsEnabled="True">
@@ -43,8 +42,8 @@
                 <dxg:GridColumn FieldName="GIOITINH"  Header="GIỚI TÍNH"/>
                 <dxg:GridColumn FieldName="NGAYSINH" Header="NGÀY SINH"/>
                 <dxg:GridColumn FieldName="NOISINH"  Header="NƠI SINH"/>
-                <dxg:GridColumn FieldName="TENDANTOC" Header="DÂN TỘC" />
-                <dxg:GridColumn FieldName="TENTONGIAO" Header="TÔN GIÁO" />
+                <!--<dxg:GridColumn FieldName="TENDANTOC" Header="DÂN TỘC" />
+                <dxg:GridColumn FieldName="TENTONGIAO" Header="TÔN GIÁO" />-->
                 <dxg:GridColumn FieldName="HOTENCHA" Header="HỌ TÊN CHA" />
                 <dxg:GridColumn FieldName="HOTENME" Header="HỌ TÊN MẸ" />
                 <dxg:GridColumn FieldName="DIENTHOAI" Header="ĐIỆN THOẠI" />
