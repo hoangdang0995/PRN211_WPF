@@ -42,8 +42,6 @@
                 <dxg:GridColumn FieldName="GIOITINH"  Header="GIỚI TÍNH"/>
                 <dxg:GridColumn FieldName="NGAYSINH" Header="NGÀY SINH"/>
                 <dxg:GridColumn FieldName="NOISINH"  Header="NƠI SINH"/>
-                <!--<dxg:GridColumn FieldName="TENDANTOC" Header="DÂN TỘC" />
-                <dxg:GridColumn FieldName="TENTONGIAO" Header="TÔN GIÁO" />-->
                 <dxg:GridColumn FieldName="HOTENCHA" Header="HỌ TÊN CHA" />
                 <dxg:GridColumn FieldName="HOTENME" Header="HỌ TÊN MẸ" />
                 <dxg:GridColumn FieldName="DIENTHOAI" Header="ĐIỆN THOẠI" />

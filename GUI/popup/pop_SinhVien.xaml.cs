@@ -31,10 +31,10 @@ namespace GUI.popup
             {
                 string str = dt.Rows[0][0].ToString();
                 str = str.Substring(2);
-                return "SV" + (int.Parse(str) + 1).ToString("00000000");
+                return "DE" + (int.Parse(str) + 1).ToString("000000");
             }
             else
-                return "SV00000001";
+                return "DE00000001";
         }
 
         public pop_SinhVien()
@@ -49,34 +49,6 @@ namespace GUI.popup
             type = "edit";
             this.id = id;
         }
-
-        //void LoadTonGiao()
-        //{
-        //    DataTable dt = (new DAO.Database()).Select("SELECT MATONGIAO, TENTONGIAO FROM TONGIAO");
-        //    for (int i = 0; i < dt.Rows.Count; i++)
-        //    {
-        //        TextBlock _txttemp = new TextBlock();
-        //        _txttemp.Tag = dt.Rows[i]["MATONGIAO"].ToString();
-        //        _txttemp.Text = dt.Rows[i]["TENTONGIAO"].ToString();
-        //        cbx_tongiao.Items.Add(_txttemp);
-        //    }
-        //    if (dt.Rows.Count != 0)
-        //        cbx_tongiao.SelectedIndex = 0;
-        //}
-
-        //void LoadDanToc()
-        //{
-        //    DataTable dt = (new DAO.Database()).Select("SELECT MADANTOC, TENDANTOC FROM DANTOC");
-        //    for (int i = 0; i < dt.Rows.Count; i++)
-        //    {
-        //        TextBlock _txttemp = new TextBlock();
-        //        _txttemp.Tag = dt.Rows[i]["MADANTOC"].ToString();
-        //        _txttemp.Text = dt.Rows[i]["TENDANTOC"].ToString();
-        //        cbx_dantoc.Items.Add(_txttemp);
-        //    }
-        //    if (dt.Rows.Count != 0)
-        //        cbx_dantoc.SelectedIndex = 0;
-        //}
 
         void Init_add()
         {
@@ -105,26 +77,6 @@ namespace GUI.popup
                 if (dt.Rows[0]["GIOITINH"].ToString() == "Nữ")
                     rdb_gtNu.IsChecked = true;
                 txt_noisinh.Text = dt.Rows[0]["NOISINH"].ToString();
-
-                //for (int i = 0; i < cbx_tongiao.Items.Count; i++)
-                //{
-                //    TextBlock _txttemp = (TextBlock)cbx_tongiao.Items[i];
-                //    if (_txttemp.Tag.ToString() == dt.Rows[0]["MATONGIAO"].ToString())
-                //    {
-                //        cbx_tongiao.SelectedIndex = i;
-                //        break;
-                //    }
-                //}
-
-                //for (int i = 0; i < cbx_dantoc.Items.Count; i++)
-                //{
-                //    TextBlock _txttemp = (TextBlock)cbx_dantoc.Items[i];
-                //    if (_txttemp.Tag.ToString() == dt.Rows[0]["MADANTOC"].ToString())
-                //    {
-                //        cbx_dantoc.SelectedIndex = i;
-                //        break;
-                //    }
-                //}
                 string[] ngaysinh = dt.Rows[0]["NGAYSINH"].ToString().Split(new char[]{'/',' '});
                 dtp_ngaysinh.SelectedDate = new DateTime(int.Parse(ngaysinh[2]),int.Parse(ngaysinh[1]),int.Parse(ngaysinh[0])); 
                 txt_hotencha.Text = dt.Rows[0]["HOTENCHA"].ToString();
@@ -137,8 +89,6 @@ namespace GUI.popup
 
         void Init()
         {
-            //LoadDanToc();
-            //LoadTonGiao();
             if (type == "add")
                 Init_add();
             else if (type == "edit")
@@ -157,8 +107,6 @@ namespace GUI.popup
             {
                 string _ngaythangnam = dtp_ngaysinh.SelectedDate.Value.ToString("dd-MMM-yyyy");
                 string _Gioitinh = "Nam";
-                //string _idtongiao = ((TextBlock)cbx_tongiao.SelectedItem).Tag.ToString();
-                //string _iddantoc = ((TextBlock)cbx_dantoc.SelectedItem).Tag.ToString();
 
                 if (rdb_gtNu.IsChecked == true)
                     _Gioitinh = "Nữ";

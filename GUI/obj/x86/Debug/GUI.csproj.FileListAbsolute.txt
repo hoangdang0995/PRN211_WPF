@@ -570,12 +570,10 @@ C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\Dictionary1.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_DangNhap.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.baml
-C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_lophoc.baml
-C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_monhoc.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.baml
-C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_SinhVien_Lop.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_ThongTinTaiKhoan.baml
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_xemDiem.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\Loaigv.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.baml
@@ -583,12 +581,10 @@ C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\Resources\Button.baml
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_DangNhap.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_HeThongQuanLy.g.cs
-C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_lophoc.g.cs
-C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_monhoc.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_Nguoidung.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_Sinhvien.g.cs
-C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_SinhVien_Lop.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_ThongTinTaiKhoan.g.cs
+C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\frm_xemDiem.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\Loaigv.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\popup\pop_NguoiDung.g.cs
 C:\Users\Dell\Desktop\ChNganh\Semester6\PRN211\BaiTapCuoiKi\PhanMemQLSV\QLSV\GUI\obj\x86\Debug\popup\pop_NhapDiem.g.cs

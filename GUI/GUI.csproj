@@ -136,37 +136,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="frm_lophoc.xaml.cs">
-      <DependentUpon>frm_lophoc.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="frm_monhoc.xaml.cs">
-      <DependentUpon>frm_monhoc.xaml</DependentUpon>
-    </Compile>
     <Compile Include="frm_Nguoidung.xaml.cs">
       <DependentUpon>frm_Nguoidung.xaml</DependentUpon>
     </Compile>
     <Compile Include="frm_Sinhvien.xaml.cs">
       <DependentUpon>frm_Sinhvien.xaml</DependentUpon>
     </Compile>
-    <Compile Include="frm_SinhVien_Lop.xaml.cs">
-      <DependentUpon>frm_SinhVien_Lop.xaml</DependentUpon>
-    </Compile>
     <Compile Include="frm_ThongTinTaiKhoan.xaml.cs">
       <DependentUpon>frm_ThongTinTaiKhoan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frm_xemDiem.xaml.cs">
+      <DependentUpon>frm_xemDiem.xaml</DependentUpon>
     </Compile>
     <Compile Include="G_system.cs" />
     <Compile Include="frm_HeThongQuanLy.xaml.cs">
       <DependentUpon>frm_HeThongQuanLy.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="frm_lophoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="frm_monhoc.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="frm_Nguoidung.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -175,11 +161,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="frm_SinhVien_Lop.xaml">
+    <Page Include="frm_ThongTinTaiKhoan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="frm_ThongTinTaiKhoan.xaml">
+    <Page Include="frm_xemDiem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

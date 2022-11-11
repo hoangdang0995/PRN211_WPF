@@ -24,17 +24,16 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="1" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Tên Sinh viên :</TextBlock>
-        <TextBlock Grid.Row="2" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Tên Lớp :</TextBlock>
-        <TextBlock Grid.Row="3" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Tên môn học :</TextBlock>
-        <TextBlock Grid.Row="4" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Điểm : </TextBlock>
+		<TextBlock Grid.Row="1" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Tên Sinh viên :</TextBlock>
+		<TextBlock Grid.Row="2" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Điểm TH lần 1:</TextBlock>
+		<TextBlock Grid.Row="3" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Điểm TH lần 2:</TextBlock>
+		<TextBlock Grid.Row="4" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="18">Điểm TH lần 3:</TextBlock>
 
-        <ComboBox Name="cbo_TenSinhVien" Grid.Column="1" Grid.Row="1" Margin="2" VerticalAlignment="Center" FontSize="18"></ComboBox>
-        <ComboBox Name="cbo_TenLop" Grid.Column="1" Grid.Row="2" Margin="2" VerticalAlignment="Center" FontSize="18"></ComboBox>
-        <ComboBox Name="cbo_TenMonHoc" Grid.Column="1" Grid.Row="3" Margin="2" VerticalAlignment="Center" FontSize="18"></ComboBox>
-        <TextBox Name="txt_diem" Grid.Column="1" Grid.Row="4" Margin="2" VerticalAlignment="Center" FontSize="18"></TextBox>
-
-        <Grid Grid.Row="5" Grid.ColumnSpan="2">
+		<ComboBox Name="cbo_TenSinhVien" Grid.Column="1" Grid.Row="1" Margin="2" VerticalAlignment="Center" FontSize="18"></ComboBox>
+		<TextBox Name="txt_diem1" Grid.Column="1" Grid.Row="2" Margin="2" VerticalAlignment="Center" FontSize="18"></TextBox>
+		<TextBox Name="txt_diem2" Grid.Column="1" Grid.Row="3" Margin="2" VerticalAlignment="Center" FontSize="18"></TextBox>
+		<TextBox Name="txt_diem3" Grid.Column="1" Grid.Row="4" Margin="2" VerticalAlignment="Center" FontSize="18"></TextBox>
+		<Grid Grid.Row="5" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition />
